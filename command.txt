@@ -1,0 +1,16 @@
+Commands to install typescript:
+
+Typescript installation:
+
+     npm install --global typescript
+
+Change the Execution Policy for the Current User:
+    
+     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+   - This command changes the execution policy only for your user account without requiring admin rights.
+
+     tsc -v
+
+   - This should now display the TypeScript version without the script execution error.
+
